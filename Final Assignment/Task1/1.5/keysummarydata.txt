@@ -1,0 +1,12 @@
+> fit.gamma<-fitdist(my_subnetwork[,8],"gamma","mme")
+> plot(fit.gamma)
+
+> descdist(my_subnetwork[,8], discrete = FALSE, boot = NULL, method = "unbiased", graph = TRUE, obs.col = "darkblue", obs.pch = 16, boot.col = "orange") 
+summary statistics
+------
+min:  28   max:  2060067 
+median:  96 
+mean:  303.5228 
+estimated sd:  7994.316 
+estimated skewness:  81.01046 
+estimated kurtosis:  12625.39 
